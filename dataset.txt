@@ -1,0 +1,5 @@
+https://facundoq.github.io/datasets/lsa64/
+
+model was trained on the raw version:
+https://drive.google.com/file/d/1C7k_m2m4n5VzI4lljMoezc-uowDEgIUh/view?usp=sharing
+https://mega.nz/#!kJBDxLSL!zamibF1KPtgQFHn3RM0L1WBuhcBUvo0N0Uec9hczK_M

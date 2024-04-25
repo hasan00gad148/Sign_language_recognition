@@ -1,5 +1,11 @@
-/Model/env/
+/Model_train/env/
 tmp/
+env/
+myenv/
+API/myenv/
+API/env/
+API/static/
+Last--Sign-Language-Translator .doc
 
 ### Python ###
 # Byte-compiled / optimized / DLL files

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="\Website\images\SignLanguage_800-800x793.png" type="image/x-icon">
+    <title>Sl Translate</title>
+    <style>
+        h1 {
+            font-size: 2em;
+            font-weight: bold;
+            color: #333;
+            text-align: center;
+            text-transform: uppercase;
+            margin: 30px;
+            padding: 20px 0;
+        }
+
+        form {
+            max-width: 500px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+        }
+
+        input {
+            padding: 10px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            font-size: 1.2em;
+        }
+        body {
+			font-family: Arial, sans-serif;
+		}
+    </style>
+</head>
+
+<body background="https://www.accreditedlanguage.com/wp-content/uploads/2016/08/sign-language.jpg" style="
+background-repeat: no-repeat;
+background-size: cover;
+">
+    <h1 style="color: #fff;">Sign Language Translator</h1>
+
+    <form method='POST' enctype='multipart/form-data'>
+        {{form.hidden_tag()}}
+        {{form.file()}}
+        {{form.submit_word()}}
+        {{form.submit_sentence()}}
+    </form>
+
+    <h1>{{ text }}</h1>
+
+</body>
+
+</html>
